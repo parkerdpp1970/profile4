@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition Case Study - Rafael Ferreira</title>
+    <style>
+        :root {
+            --primary-color: #1a2a6c;
+            --accent-color: #f1c40f;
+            --secondary-color: #2c3e50;
+            --bg-light: #f0f2f5;
+            --text-dark: #2c3e50;
+            --border-color: #bdc3c7;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: var(--text-dark); background-color: var(--bg-light); padding-bottom: 50px; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        header { background: linear-gradient(135deg, var(--primary-color), var(--secondary-color)); color: white; padding: 30px 0; text-align: center; margin-bottom: 30px; border-radius: 10px; }
+        header h1 { font-size: 2.5em; }
+        .profile-section { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin-bottom: 30px; display: grid; grid-template-columns: 220px 1fr; gap: 30px; align-items: start; }
+        .profile-image { width: 220px; height: 220px; border-radius: 10px; object-fit: cover; border: 4px solid var(--accent-color); background-color: #ddd; }
+        .profile-details h2 { color: var(--primary-color); margin-bottom: 15px; font-size: 1.8em; }
+        .info-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 15px; margin-top: 20px; }
+        .info-item { background: var(--bg-light); padding: 12px; border-radius: 5px; border-left: 4px solid var(--accent-color); }
+        .info-item strong { color: var(--primary-color); display: block; margin-bottom: 5px; }
+        .section { background: white; padding: 30px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); margin-bottom: 30px; }
+        .section h2 { color: var(--primary-color); margin-bottom: 20px; padding-bottom: 10px; border-bottom: 3px solid var(--accent-color); font-size: 1.8em; }
+        .section h3 { color: var(--secondary-color); margin-top: 25px; margin-bottom: 15px; font-size: 1.4em; background: #f8f9fa; padding: 8px 15px; border-radius: 5px; }
+        table { width: 100%; border-collapse: collapse; margin-top: 10px; margin-bottom: 30px; }
+        table thead { background: var(--primary-color); color: white; }
+        table th { padding: 12px; text-align: left; font-weight: 600; }
+        table td { padding: 12px; border-bottom: 1px solid var(--border-color); vertical-align: top; }
+        .day-header { background-color: #f1f2f6; font-weight: bold; font-size: 1.2em; color: var(--primary-color); text-transform: uppercase; border-left: 4px solid var(--accent-color); }
+        .highlight { background: #fff3cd; padding: 15px; border-left: 4px solid #ffc107; border-radius: 5px; margin: 15px 0; }
+        @media (max-width: 768px) { .profile-section { grid-template-columns: 1fr; text-align: center; } .profile-image { margin: 0 auto; } }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Nutrition Case Study</h1>
+        </header>
+
+        <div class="profile-section">
+            <img src="https://res.cloudinary.com/dlshlye2v/image/upload/v1766471453/Rafael_yhd388.jpg" alt="Rafael Ferreira Profile" class="profile-image">
+            <div class="profile-details">
+                <h2>Rafael Ferreira</h2>
+                <div class="info-grid">
+                    <div class="info-item"><strong>Age:</strong><span>21 years old</span></div>
+                    <div class="info-item"><strong>Occupation:</strong><span>Footballer (Inverness Caledonian Thistle FC)</span></div>
+                    <div class="info-item"><strong>Location:</strong><span>Scotland</span></div>
+                    <div class="info-item"><strong>Origin:</strong><span>Brazilian/Scottish</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Background</h2>
+            <p>Rafael is a talented 21-year-old footballer currently in the reserve team at Inverness Caledonian Thistle Football Club. Known for his "Brazilian flair," he was once a rising star, but recent injuries and declining fitness have left him on the bench. He is determined to use the off-season to return to the first team and regain his competitive edge.</p>
+        </div>
+
+        <div class="section">
+            <h2>Lifestyle & Training</h2>
+            <h3>Training Patterns:</h3>
+            <ul>
+                <li>Able to commit to 5-6 training sessions per week.</li>
+                <li>Experienced in the gym (5 years) and confident with weights.</li>
+                <li>Lacks tenacity in aerial duels and tackles, requiring increased muscle mass and strength.</li>
+            </ul>
+            <h3>Dietary Habits:</h3>
+            <ul>
+                <li>Admits to poor cooking skills and a reliance on convenience foods.</li>
+                <li>Meal timing around training sessions is currently sporadic and unplanned.</li>
+                <li>Diet consists of high-calorie, processed items including frequent takeaway pizzas.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Health & Wellness</h2>
+            <div class="info-grid">
+                <div class="info-item"><strong>Height:</strong><span>1.75 m</span></div>
+                <div class="info-item"><strong>Current Weight:</strong><span>65 kg</span></div>
+                <div class="info-item"><strong>Physical Activity:</strong><span>Professional Football</span></div>
+                <div class="info-item"><strong>Stress Level:</strong><span>Low</span></div>
+                <div class="info-item"><strong>Desired Weight:</strong><span>75 kg</span></div>
+            </div>
+            <div class="highlight">
+                <strong>Main Goal:</strong> Rafael wants to increase his muscle mass and body weight to 75 kg. He requires specific guidance on optimal meal timing around training and high-quality protein requirements to support hypertrophy. Beyond his current club, his ultimate aspiration is to play in the English Premier League.
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>3-Day Food Diary</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 15%;">Time</th>
+                        <th style="width: 60%;">Food/Drink</th>
+                        <th style="width: 25%;">Portion Size</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="day-header"><td colspan="3">Day 1</td></tr>
+                    <tr>
+                        <td>9:15 am</td>
+                        <td>Frosties Cereal<br>Full-fat milk<br>Tea with semi-skimmed milk</td>
+                        <td>140g (2 large bowls)<br>450ml<br>200ml</td>
+                    </tr>
+                    <tr>
+                        <td>10:45 am</td>
+                        <td>Crisps<br>Orange juice<br>Apple</td>
+                        <td>30g<br>230ml<br>1 medium</td>
+                    </tr>
+                    <tr>
+                        <td>12:30 pm</td>
+                        <td>Ham and cheese sandwiches (white bread)<br>Potato chips<br>Fanta</td>
+                        <td>2 sandwiches<br>30g<br>355ml</td>
+                    </tr>
+                    <tr>
+                        <td>4:15 pm</td>
+                        <td>Chocolate bar<br>Pretzels<br>Water</td>
+                        <td>50g<br>30g<br>240ml</td>
+                    </tr>
+                    <tr>
+                        <td>8:00 pm</td>
+                        <td>Dominos Pepperoni Pizza<br>Sweetened iced tea</td>
+                        <td>750g (12-inch)<br>240ml</td>
+                    </tr>
+
+                    <tr class="day-header"><td colspan="3">Day 2</td></tr>
+                    <tr>
+                        <td>9:15 am</td>
+                        <td>Frosties Cereal<br>Full-fat milk<br>Tea with semi-skimmed milk</td>
+                        <td>140g (2 large bowls)<br>450ml<br>200ml</td>
+                    </tr>
+                    <tr>
+                        <td>10:45 am</td>
+                        <td>Pineapple chunks<br>Apple<br>Water</td>
+                        <td>300g<br>180g<br>240ml</td>
+                    </tr>
+                    <tr>
+                        <td>12:30 pm</td>
+                        <td>Ham and cheese sandwiches (white bread)<br>Walkers ready salted crisps<br>Fanta</td>
+                        <td>2 sandwiches<br>30g<br>355ml</td>
+                    </tr>
+                    <tr>
+                        <td>6:15 pm</td>
+                        <td>Chicken korma<br>Basmati rice<br>Sweetened iced tea</td>
+                        <td>340g (1.5 cups)<br>240ml (1 cup)<br>240ml</td>
+                    </tr>
+                    <tr>
+                        <td>9:40 pm</td>
+                        <td>Protein shake (with water)</td>
+                        <td>40g protein / 400ml</td>
+                    </tr>
+
+                    <tr class="day-header"><td colspan="3">Day 3</td></tr>
+                    <tr>
+                        <td>9:00 am</td>
+                        <td>White toast with jam<br>Scrambled eggs<br>Bacon<br>Tea with semi-skimmed milk</td>
+                        <td>120g (3 slices)<br>100g (2 medium)<br>45g (3 strips)<br>200ml</td>
+                    </tr>
+                    <tr>
+                        <td>11:00 am</td>
+                        <td>Banana<br>Doritos<br>Orange juice</td>
+                        <td>120g (1 medium)<br>30g<br>230ml</td>
+                    </tr>
+                    <tr>
+                        <td>12:30 pm</td>
+                        <td>McDonald's Big Mac<br>Medium fries<br>Coca-Cola</td>
+                        <td>219g (1 burger)<br>114g<br>355ml</td>
+                    </tr>
+                    <tr>
+                        <td>4:00 pm</td>
+                        <td>Chocolate digestive biscuits<br>Jelly beans<br>Water</td>
+                        <td>36g (2 biscuits)<br>40g<br>240ml</td>
+                    </tr>
+                    <tr>
+                        <td>8:30 pm</td>
+                        <td>Fish and chips (takeaway)<br>Mushy peas<br>Buttered white bread<br>Fanta</td>
+                        <td>450g (large portion)<br>150g<br>80g (2 slices)<br>355ml</td>
+                    </tr>
+                    <tr>
+                        <td>10:15 pm</td>
+                        <td>Protein shake (with milk)</td>
+                        <td>40g protein / 400ml</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
